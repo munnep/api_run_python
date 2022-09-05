@@ -2,7 +2,7 @@
 
 This script is based on the documentation from HashiCorp "The API-driven Run Workflow" which can be found [here](https://www.terraform.io/cloud-docs/run/api)
 
-With this script you can push a new configuration into an existing workspace on you TFE/TFC environment. 
+With this python script you can push a new configuration into an existing workspace on your TFE/TFC environment. 
 
 # Prerequisites
 
@@ -27,7 +27,7 @@ cd api_run_python
 ```
 - export you TOKEN as an environment variable
 ```
-export TOKEN=u7aOzOaTtd4ZLQ.atlasv1.aNymyeBxoiOiBFuYm7f3vAnTmer8yq1Ik837yCIlnGktBSlLoUwPyWNrt1yJ5aa1ySs
+export TOKEN=<your_api_token>
 ```
 - Create a run with the terraform code from `example/main.tf`
 ```
