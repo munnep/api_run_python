@@ -29,7 +29,7 @@ cd api_run_python
 ```
 export TOKEN=<your_api_token>
 ```
-- Create a run with the terraform code from `example/main.tf`
+- Create a run with the terraform code from `example/main.tf`  
 script usage:
 ```
 python3 api_workflow.py <organization_name> <workspace_name> <full_path_to_terraform_code>
